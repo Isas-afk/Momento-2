@@ -1,0 +1,28 @@
+:root {
+	/* primary colors */
+	--color-primary-yellow: #ffc928;
+	--color-primary-light-yellow: #ffe37a;
+	--color-primary-black: #202528;
+	
+
+    /* zinc */
+	--color-zinc: #26343d;
+	--color-gray-light: #f3f4f2;
+	--color-primary-black: #09090b;
+	--color-white: #ffffff;
+
+    /* error*/
+	--color-error: #991e55;
+
+	/*spacing*/
+	--spacing-4: 4px;
+    --spacing-8: 8px;
+	--spacing-12: 12px;
+	--spacing-16: 16px;
+	--spacing-20: 20px;
+	--spacing-24: 24px;
+	--spacing-28: 28px;
+	--spacing-32: 32px;
+	--spacing-36: 36px;
+	--spacing-40: 40px;
+}

@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img,
+picture,
+video,
+canvas,
+jpeg {
+    display: block;
+    max-width: 100%;
+}
+
+button,
+input,
+select,
+textarea{
+    font:"Montserrat";
+}
+
+button{
+    cursor: pointer;
+    background:none;
+    border: none;
+}
+
+ul,
+ol{
+    list-style: none;
+}
