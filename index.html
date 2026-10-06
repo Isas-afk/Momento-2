@@ -1,145 +1,159 @@
-<!DOCTYPE html
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>GVP</title>
-    <link rel="preconnect" href="https://googleapis.com">
-    <link rel="preconnect" href="https://gstatic.com" crossorigin>
-    <link href="https://googleapis.com/css2?family=Montserrat:wght@100..800&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="global.css"/>
-    <link rel="stylesheet" href="margin.css"/>
-    <link rel="stylesheet" href="variables.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GVP - Gestión de Visibilidad de Parqueaderos</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header class="header">
-        <div class="header__brand">
-            <img class="header__logo" src="assets/logo.jpeg" alt="GVP logo"/>
-            <span class="header__title"> Gestion de visibilidad de parqueaderos</span>
-        </div>
 
-            <div class="header__content">
-            <h1 class="titulo__principal">MEMBRESÍA VIP PARQUEADERO GVP</h1>
+
+    <header class="encabezado">
+
+        <div class="logo">
+
+            <div class="vehiculos">
+                <span>🚗</span>
+                <span>🏍️</span>
             </div>
+
+            <h1>  G<span>V</span>P </h1>
+         </div>
+
+        <h2>
+            Tu parqueadero, más cerca,<br>
+            <strong>más seguro.</strong>
+        </h2>
+
+        <p class="descripcion">
+            Encuentra parqueaderos disponibles, reserva tu espacio y
+            cuida lo que te mueve. En GVP no solo te ofrecemos un lugar
+            seguro para tu vehículo, también te brindamos la tranquilidad
+            de saber que estará protegido mientras realizas tus compras,
+            diligencias y gestiones en el centro de Medellín.
+            <br><br>
+            Una solución pensada especialmente para comerciantes y
+            personas que necesitan desplazarse al centro para abastecerse
+            de mercancía, realizar negocios y ahorrar tiempo.</p>
+
     </header>
 
-    <main class="pricing-container">
-        <div class="pricing-card">
-            <h2 class="card-title"> PARQUEADERO VIP</h2>
+    <section class="seguridad">
 
-            <div class="plans-grid">
-                <article class="plan-card">
-                    <span class="badge">VIP</span> 
-                    <h3 class="plan-title">PLAN A (MENSUAL)</h3>
-                    <p class="plan-price">180.000 COP / MES</p>
+        <div class="imagen-seguridad">
 
-                    <ul class="plan-features">
-                        <li> + Acceso ilimitado 24/7</li>
-                        <li> + Espacio de parqueaderos preferencial</li>
-                        <li> + Descuento del 15% en servicios de lavado</li>
-                        <li> + Soporte VIP dedicado</li>
-                        <li> + Ahorro de un 15% vs pago por hora</li>
-                    </ul>
+            <div class="vehiculo"> 🚗</div>
 
-                    <div class="plan-actions">
-                        <button class="button-yellow">SELECCIONAR PLAN A</button>
-                        <button class="button-outline">PAGAR</button>
-                    </div>
-                </article>
+            <div class="vehiculo"> 🏍️</div>
+         </div>
 
-                <article class="plan-card">
-                    <span class="badge">MEJOR VALOR</span>
-                    <h3 class="plan-title"> PLAN B (ANUAL) </h3>
-                    <P class="plan-price">$1.800.000 COP / AÑO </P>
+        <div class="texto-seguridad">
 
-                    <ul class="plan-features">
-                        <li> Todo en el plan A (MENSUAL)</li>
-                        <li> Acceso prioritario en eventos especiales</li>
-                        <li> 2 lavados básicos gratuitos al año</li>
-                        <li> Descuento del 20% en servicios de lavado</li>
-                        <li> Pago unico anual: ahorra más de 2 meses</li>
-                        <li> Ahorra un 30% vs pago por hora</li>
-                    </ul>
+            <h2>Tu vehículo seguro</h2>
 
-                    <div class="plan-actions">
-                        <button class="button-yellow"> SELECCIONAR PLAN B</button>
-                        <button class="button-outline">PAGAR</button>
-                    </div>
-                </article>
-            </div>
+            <p>Encuentra espacios adecuados para dejar tu carro o
+            motocicleta mientras realizas tus actividades.</p>
         </div>
-    </main>
-    <html lang="es">
-<head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <title> GVP - Registro de Usuario </title>
-        <link rel="stylesheet" href="style.css">
-<head>
-    <body> 
-     <div class="formulario">
-<h1> Registro de Usuario </h1>
-<p> Ingresa la información del Usuario </p>
-<form>
-         <label> Nombre Completo </label>
-          <input type="text" placeholder="Ej: Neil Adonai Torres Zavarce">
-           <label> Fecha de Nacimiento </label>
-          <input type="date">
-           <label> Cédula de Ciudadanía </label>
-          <input type="text" placeholder="Ej: 1.045.532.146">
-          <label> Dirección </label>
-          <input type="text" placeholder="Ej: calle 37 #42-32">
-          <label> Correo Electrónico</label>
-           <input type="email" placeholder="Ej: usuario@correo.com"> 
-          <label> Ciudad </label>
-          <input type="text" placeholder="Ej: Bello">
-           <label> Teléfono Principal </label>
-          <input type="tel" placeholder="Ej: 324 327 1387">
-          <label> Género </label>
- <select>
-           <option value=""> Selecciona una opción </option>
-           <option> Masculino </option>
-           <option> Femenino </option>
-           <option> otro </option>
-           <option> Pefiero no decirlo </option>
- </select>
-           <label> Teléfono Alterno </label>
-           <input type="tel" placeholder="Ej: 324 327 1387">
-           <label> Tipo de Usuario </label>
- <select> 
-           <option value="Selecciona una Opción">
-           <option>Cliente</option>
-           <option>Dueño de Parqueadero</option>
- </select>
-          <button type="submit"> Guardar Información </button>
-         </form>
+
+        <a class="button demo" href="demo.html">DEMO</a>
+    </section>
+
+    <section class="beneficios">
+
+        <div class="beneficio">
+
+            <div class="icono"> 🛡️</div>
+
+            <h3>Tu vehículo seguro </h3>
+
+            <p> Parqueaderos vigilados y con espacios controlados.</p>
+        </div>
+
+
+        <div class="beneficio">
+
+            <div class="icono">📍</div>
+
+            <h3>Ubicación estratégica </h3>
+
+            <p> Cerca del centro de Medellín y de los lugares que necesitas</p>
          </div>
 
-         </div>
 
-    <!-- REGISTRO DE VEHÍCULO -->
-    <div class="formulario">
+        <div class="beneficio">
 
-        <h1>Registro de Vehículo</h1>
-        <p>Ingresa la información del vehículo</p>
+            <div class="icono">⏱️</div>
 
-        <form>
+            <h3>Ahorra tiempo</h3>
 
-            <label>Marca del vehículo</label>
-            <input type="text" placeholder="Ej: Toyota">
+            <p>Encuentra un espacio sin tener que buscar durante horas.</p>
 
-            <label>Modelo del vehículo</label>
-            <input type="text" placeholder="Ej: Corolla">
+        </div>
 
-            <label>Placa del vehículo</label>
-            <input type="text" placeholder="Ej: ABC 123">
-            <label> Color del Vehiculo </label>
-             <input type="text" placeholder="Ej: negro">
+    </section>
 
-            <button type="submit">Guardar información</button>
+    <section class="formularios">
 
-        </form>
-     </div>
-    </body>
+        <a class="boton usuario" href="registroUsuario.html">
+
+            <span class="icono-boton">👤</span>
+
+            <span> Formulario para<br>
+            <strong>nuevo usuario</strong> </span>
+
+            <span class="flecha"> → </span>
+        </a>
+
+
+        <a class="boton administrador" href="parqueadero.html">
+
+            <span class="icono-boton">⚙️ </span>
+
+            <span>Formulario para<br>
+            <strong>administrador de parqueadero</strong> </span>
+
+            <span class="flecha"> →</span>
+        </a>
+
+        <a class="boton carritos" href="registroVehiculo.html">
+
+            <span class="icono-boton"> </span>
+
+            <span>Formulario para<br>
+            <strong>nuevo vehiculo</strong> </span>
+
+            <span class="flecha"> →</span>
+        </a>
+
+    </section>
+
+    <section class="vip">
+
+        <a class="boton-vip" href="planes.html">
+
+            <span class="corona"> 👑</span>
+
+            <strong> VIP</strong>
+
+            <span> →</span>
+        </a>
+    </section>
+
+    <footer>
+        <p> © 2026 GVP - Gestión de Visibilidad de Parqueaderos</p>
+    </footer>
+
+</body>
+
 </html>

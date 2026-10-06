@@ -38,11 +38,12 @@ select {
     border-radius: 8px;
     font-size: 15 px;
 }
-input: :focus,
-select: :focus {
+
+/*input: :focus,select: :focus {
     outline: none;
     border-color: #f5c400;
-}
+}*/
+
 button {
     margin-top: 30px;
     padding: 14px;
@@ -56,4 +57,693 @@ button {
 }
 button:hover {
     background-color: #e0b400;
+}
+
+a {
+    margin-top: 30px;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background-color: f5c400;
+    color: #172533;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+a:hover {
+    background-color: #e0b400;
+}
+
+/*NICO*/
+/* ==============================
+   COLORES DE GVP
+   ============================== */
+
+:root {
+
+    --negro: #202528;
+    --amarillo: #FFC928;
+    --blanco: #FFFFFF;
+    --gris-claro: #F3F4F2;
+    --gris-azulado: #26343D;
+    --amarillo-suave: #FFE37A;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    margin: 0;
+
+    background-color: var(--blanco);
+
+    color: var(--negro);
+
+    font-family: "Poppins", sans-serif;
+}
+
+.encabezado {
+
+    text-align: center;
+
+    padding: 50px 20px 40px;
+
+    background-color: var(--blanco);
+}
+
+.logo {
+
+    position: relative;
+
+    max-width: 800px;
+
+    margin: auto;
+
+    padding: 30px;
+}
+
+.logo h1 {
+
+    margin: 0;
+
+    font-family: "Montserrat", sans-serif;
+
+    font-size: 120px;
+
+    font-weight: 800;
+
+    letter-spacing: -8px;
+
+    color: var(--negro);
+
+    position: relative;
+
+    z-index: 2;
+}
+
+.logo h1 span {
+
+    color: var(--amarillo);
+
+}
+
+.vehiculos {
+
+    position: absolute;
+
+    width: 100%;
+
+    top: 20px;
+
+    left: 0;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    padding: 0 30px;
+
+    font-size: 80px;
+
+    opacity: 0.85;
+
+    z-index: 1;
+}
+
+.encabezado h2 {
+
+    font-family: "Montserrat", sans-serif;
+
+    font-size: 35px;
+
+    margin: 20px 0;
+
+    color: var(--gris-azulado);
+}
+
+
+.encabezado h2 strong {
+
+    color: var(--negro);
+
+}
+
+.descripcion {
+
+    max-width: 850px;
+
+    margin: auto;
+
+    font-size: 17px;
+
+    line-height: 1.7;
+
+    color: var(--gris-azulado);
+}
+
+.seguridad {
+
+    background-color: var(--negro);
+
+    color: var(--blanco);
+
+    padding: 50px 30px;
+
+    text-align: center;
+}
+
+.imagen-seguridad {
+
+    max-width: 1000px;
+
+    min-height: 300px;
+
+    margin: auto;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 100px;
+
+    background:
+
+        linear-gradient(
+            to bottom,
+            #3b4143,
+            #202528
+        );
+
+    border-radius: 15px;
+
+    border-bottom: 8px solid var(--amarillo);
+}
+
+
+.imagen-seguridad .vehiculo {
+
+    font-size: 150px;
+
+    padding: 40px;
+
+}
+
+
+.texto-seguridad h2 {
+
+    font-family: "Montserrat", sans-serif;
+
+    font-size: 30px;
+
+    color: var(--amarillo);
+
+    margin-bottom: 10px;
+}
+
+
+.texto-seguridad p {
+
+    font-size: 17px;
+
+}
+
+.beneficios {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 20px;
+
+    padding: 50px 30px;
+
+    background-color: var(--gris-claro);
+}
+
+
+.beneficio {
+
+    width: 300px;
+
+    padding: 25px;
+
+    text-align: center;
+
+    background-color: var(--blanco);
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+
+.icono {
+
+    font-size: 40px;
+
+    margin-bottom: 10px;
+}
+
+
+.beneficio h3 {
+
+    font-family: "Montserrat", sans-serif;
+
+    font-size: 18px;
+
+    color: var(--negro);
+}
+
+
+.beneficio p {
+
+    color: var(--gris-azulado);
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.formularios {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 30px;
+
+    padding: 50px 30px;
+
+}
+
+.boton {
+
+    width: 420px;
+
+    min-height: 110px;
+
+    border: none;
+
+    border-radius: 20px;
+
+    padding: 20px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+
+    font-family: "Poppins", sans-serif;
+
+    font-size: 16px;
+
+    text-align: left;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.usuario {
+
+    background-color: var(--amarillo);
+
+    color: var(--negro);
+}
+
+.administrador {
+
+    background-color: var(--gris-azulado);
+
+    color: var(--blanco);
+}
+
+.carritos {
+
+    background-color: var(--amarillo);
+
+    color: var(--blanco);
+}
+
+.demo {
+
+    background-color: var(--amarillo);
+
+    color: var(--blanco);
+}
+
+.icono-boton {
+
+    font-size: 35px;
+}
+
+.boton strong {
+
+    font-family: "Montserrat", sans-serif;
+
+    font-size: 18px;
+}
+
+
+/* Flecha */
+
+.flecha {
+
+    margin-left: auto;
+
+    font-size: 30px;
+}
+
+
+/* Efecto al pasar el mouse */
+
+.boton:hover {
+
+    transform: translateY(-5px);
+
+}
+
+
+/* ==============================
+   BOTÓN VIP
+   ============================== */
+
+.vip {
+
+    display: flex;
+
+    justify-content: center;
+
+    padding: 0 30px 60px;
+
+}
+
+
+.boton-vip {
+
+    width: 400px;
+
+    padding: 20px 40px;
+
+    border-radius: 50px;
+
+    border: 5px solid var(--amarillo);
+
+    background-color: var(--negro);
+
+    color: var(--amarillo);
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    font-family: "Montserrat", sans-serif;
+
+    font-size: 30px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+
+.boton-vip:hover {
+
+    background-color: var(--amarillo);
+
+    color: var(--negro);
+
+}
+
+footer {
+
+    text-align: center;
+
+    padding: 25px;
+
+    background-color: var(--negro);
+
+    color: var(--blanco);
+
+    font-size: 13px;
+}
+
+
+/*ia */
+
+@media (max-width: 768px) {
+
+    .logo h1 {
+
+        font-size: 80px;
+
+    }
+
+
+    .vehiculos {
+
+        font-size: 45px;
+
+    }
+
+
+    .encabezado h2 {
+
+        font-size: 25px;
+
+    }
+
+
+    .descripcion {
+
+        font-size: 15px;
+
+    }
+
+
+    .beneficios {
+
+        flex-direction: column;
+
+        align-items: center;
+
+    }
+
+
+    .formularios {
+
+        flex-direction: column;
+
+        align-items: center;
+
+    }
+
+
+    .boton {
+
+        width: 100%;
+
+        max-width: 420px;
+
+    }
+
+
+    .imagen-seguridad {
+
+        gap: 20px;
+
+    }
+
+
+    .imagen-seguridad .vehiculo {
+
+        font-size: 80px;
+
+    }
+
+
+    .boton-vip {
+
+        width: 100%;
+
+        max-width: 400px;
+
+    }
+
+}
+
+.logo {
+    text-align: center;
+}
+
+img {
+    border-radius: 10px;
+}
+
+/* ===== Colores (los guardamos en variables para reutilizarlos) ===== */
+:root {
+  --amarillo: #ffd500;
+  --negro: #1a1a1a;
+  --gris: #f4f4f4;
+}
+
+/* ===== Estilos generales ===== */
+* {
+  box-sizing: border-box;   /* el padding no agranda las cajas */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--negro);
+  max-width: 480px;         /* ancho de pantalla de celular/tablet */
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* ===== Encabezado ===== */
+.encabezado {
+  background-color: var(--amarillo);
+  padding: 15px;
+  display: flex;                    /* pone los elementos en fila */
+  justify-content: space-between;   /* uno a cada lado */
+  align-items: center;
+}
+
+.menu {
+  font-size: 28px;
+}
+
+/* ===== Cuerpo: menú lateral + contenido ===== */
+.cuerpo {
+  display: flex;
+}
+
+/* ===== Contenido principal ===== */
+.principal {
+  flex: 1;                  /* ocupa el espacio que sobra */
+  background-color: var(--gris);
+  padding: 15px;
+  border-top-left-radius: 20px;
+}
+
+.principal h1 {
+  font-size: 20px;
+}
+
+.amarillo {
+  color: #e6c000;
+}
+
+.principal > p {
+  font-size: 12px;
+  color: #666;
+  margin: 8px 0 15px;
+}
+
+/* ===== Buscador ===== */
+.buscador {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+/* ===== Filtros ===== */
+.filtros {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 15px;
+}
+
+.filtro {
+  padding: 6px 12px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  background-color: white;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.filtro.seleccionado {
+  background-color: var(--amarillo);
+  border-color: var(--amarillo);
+}
+
+/* ===== Tarjetas ===== */
+.tarjeta {
+  background-color: white;
+  border-radius: 12px;
+  padding: 8px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.foto {
+  width: 70px;
+  height: 70px;
+  background-color: #777;   /* aquí puedes poner una imagen */
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.datos {
+  flex: 1;
+}
+
+.datos h3 {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.datos p {
+  font-size: 10px;
+  color: #444;
+  margin-bottom: 3px;
+}
+
+.espacios {
+  background-color: var(--amarillo);
+  border-radius: 10px;
+  padding: 6px;
+  text-align: center;
+  width: 60px;
+}
+
+.espacios strong {
+  display: block;
+  font-size: 24px;
+}
+
+.espacios small {
+  font-size: 8px;
+}
+
+/* ===== Menú inferior ===== */
+.inferior {
+  background-color: var(--negro);
+  border-top: 3px solid var(--amarillo);
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 10px;
+}
+
+.inferior a.activo {
+  color: var(--amarillo);
 }
